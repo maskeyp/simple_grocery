@@ -5,5 +5,6 @@ A simple flutter project
 
 
 
-https://user-images.githubusercontent.com/59556770/232503825-ca86390f-53fd-4bb0-8b9e-54951279a221.mp4
+![untitled](https://user-images.githubusercontent.com/59556770/232508257-43b2e3a7-bd5d-448e-b198-2a726b528d1d.gif)
+
 
