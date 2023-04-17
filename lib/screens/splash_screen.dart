@@ -28,7 +28,7 @@ class SplashScreen extends StatelessWidget {
           GestureDetector(
             onTap: () => Navigator.pushReplacement(context,
                 MaterialPageRoute(builder: (context) {
-              return HomeScreen();
+              return const HomeScreen();
             })),
             child: Container(
               padding: const EdgeInsets.all(24),

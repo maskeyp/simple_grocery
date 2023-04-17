@@ -4,6 +4,7 @@ class ItemTile extends StatelessWidget {
   final String itemName;
   final String itemPrice;
   final String imagePath;
+
   final color;
   void Function()? onPressed;
   ItemTile({
@@ -40,7 +41,7 @@ class ItemTile extends StatelessWidget {
             // Items Names
             Text(
               itemName,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 16,
               ),
             ),
@@ -49,8 +50,8 @@ class ItemTile extends StatelessWidget {
               onPressed: onPressed,
               color: color,
               child: Text(
-                '\$' + itemPrice,
-                style: TextStyle(
+                '\$$itemPrice',
+                style: const TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
